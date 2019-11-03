@@ -1,0 +1,9 @@
+language: java
+sudo: false
+jdk: 
+  - oraclejdk11
+install: true
+script: mvn clean verify install
+
+branches: 
+  only: "master"
